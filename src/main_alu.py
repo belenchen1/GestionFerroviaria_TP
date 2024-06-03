@@ -42,15 +42,31 @@ def setear_grafo(trenes, cabecera):
       else:
          entrada = 0
          salida = 0
-         for elem in R.in_edges[station1[i]]:
-            entrada += R.edges[elem[0], elem[1]]['capacity']
-         for elem in R.out_edges[station1[i]]:
-            salida += R.edges[elem[0], elem[1]]['capacity']
+         for elem in R.in_edges(station1[i]):
+            entrada += R[elem[0]][elem[1]]['capacity']
+         for elem in R.out_edges(station1[i]):
+            salida += R[elem[0]][elem[1]]['capacity']
          w = entrada - salida
       R.add_edge(station1[i-1], station1[i], capacity=w)
+   # for i in range(1, len(station2)):
+   #    if i == 1:
+   #       w = 0
+   #    else:
+   #       entrada = 0
+   #       salida = 0
+   #       for elem in R.in_edges(station2[i]):
+   #          entrada += R[elem[0]][elem[1]]['capacity']
+   #       for elem in R.out_edges(station2[i]):
+   #          salida += R[elem[0]][elem[1]]['capacity']
+   #       w = entrada - salida
+   #    R.add_edge(station2[i-1], station2[i], capacity=w)
    
+   # pos = nx.spring_layout(R)
+   # nx.draw(R, pos, with_labels=True, font_weight='bold')
+   # edge_labels = nx.get_edge_attributes(R, 'capacity')
+   # nx.draw_networkx_edge_labels(R, pos, edge_labels=edge_labels)
    nx.draw(R, with_labels=True, font_weight='bold')
-   plt.show() 
+   plt.show()
 
 def main():
 	filename = "instances/toy_instance.json"
