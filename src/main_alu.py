@@ -16,7 +16,7 @@ def setear_grafo(trenes, cabecera):
       
       # aristas verdes
       w = (s['demand'][0]) / (trenes['rs_info']['capacity'])
-      edges.append((((s['stops'][0]['time']), 0), ((s['stops'][1]['time']), 0), {'lower_bound': w, 'upper_bound': trenes['rs_info']['max_rs'], 'weight': 0, 'flow': w, 'color': 'green'}))
+      edges.append((((s['stops'][0]['time']), 0), ((s['stops'][1]['time']), 0), {'lower_bound': w, 'upper_bound': trenes['rs_info']['max_rs'], 'weight': 0,'color': 'green'}))
       
       # lista para aristas entre misma estacion
       if s['stops'][0]['station'] == cabecera[0]:
@@ -34,41 +34,18 @@ def setear_grafo(trenes, cabecera):
    station1.sort(key=lambda x: x[0])
    station2.sort(key=lambda x: x[0])
    
-   # BIG_NUMBER = 1e16
-   BIG_NUMBER = 25
+   BIG_NUMBER = 1e16
+   # BIG_NUMBER = 25
    # aristas rojas
-   R.add_edge(station1[-1], station1[0], lower_bound=0, upper_bound=BIG_NUMBER, weight=1, flow=0, color='red')
-   R.add_edge(station2[-1], station2[0], lower_bound=0, upper_bound=BIG_NUMBER, weight=1, flow=0, color='red')
+   R.add_edge(station1[-1], station1[0], lower_bound=0, upper_bound=BIG_NUMBER, weight=1, color='red')
+   R.add_edge(station2[-1], station2[0], lower_bound=0, upper_bound=BIG_NUMBER, weight=1, color='red')
    
    # aristas azules
    for i in range(1, len(station1)):
-      if i == 1:
-         w = 0
-      else:
-         entrada = 0
-         salida = 0
-         for elem in R.in_edges(station1[i-1]):
-            entrada += R[elem[0]][elem[1]]['flow']
-         for elem in R.out_edges(station1[i-1]):
-            salida += R[elem[0]][elem[1]]['flow']
-         w = entrada - salida
-      R.add_edge(station1[i-1], station1[i], lower_bound=0, upper_bound=BIG_NUMBER, weight=0, flow=w, color='blue')
+      R.add_edge(station1[i-1], station1[i], lower_bound=0, upper_bound=BIG_NUMBER, weight=0, color='blue')
       
    for i in range(1, len(station2)):
-      if i == 1:
-         entrada = 0
-         for elem in R.in_edges(station2[i-1]):
-            entrada += R[elem[0]][elem[1]]['flow']
-         w = entrada
-      else:
-         entrada = 0
-         salida = 0
-         for elem in R.in_edges(station2[i-1]):
-            entrada += R[elem[0]][elem[1]]['flow']
-         for elem in R.out_edges(station2[i]):
-            salida += R[elem[0]][elem[1]]['flow']
-         w = entrada - salida
-      R.add_edge(station2[i-1], station2[i], lower_bound=0, upper_bound=BIG_NUMBER, weight=0, flow=w, color='blue')
+      R.add_edge(station2[i-1], station2[i], lower_bound=0, upper_bound=BIG_NUMBER, weight=0, color='blue')
       
    '''pos = nx.spring_layout(R)
    nx.draw(R, pos, with_labels=True, font_weight='bold')
@@ -81,23 +58,25 @@ def setear_grafo(trenes, cabecera):
 def costo_min(G:nx.DiGraph):
    R = copy.deepcopy(G)
    # imbalance
-   for i in R.nodes():
-         entrada = 0
-         salida = 0
-         for elem in R.in_edges(i):
-            entrada += R[elem[0]][elem[1]]['lower_bound'] 
-         for elem in R.out_edges(i):
-            salida += R[elem[0]][elem[1]]['lower_bound']
-         i = (i[0], salida - entrada)
+   # for i in R.nodes():
+   #       entrada = 0
+   #       salida = 0
+   #       for elem in R.in_edges(i):
+   #          entrada += R[elem[0]][elem[1]]['lower_bound'] 
+   #       for elem in R.out_edges(i):
+   #          salida += R[elem[0]][elem[1]]['lower_bound']
+   #       i = (i[0], salida - entrada)
+
+
    # redefino aristas
    for e in R.edges():
-      R[e[0]][e[1]]['flow'] = R[e[0]][e[1]]['flow'] - R[e[0]][e[1]]['lower_bound']
       R[e[0]][e[1]]['upper_bound'] = R[e[0]][e[1]]['upper_bound'] - R[e[0]][e[1]]['lower_bound']
       R[e[0]][e[1]]['lower_bound'] = 0
    
    s = min(R.nodes(), key=lambda x: x[0])
    t = max(R.nodes(), key=lambda x: x[0])
-   flowDict = nx.max_flow_min_cost(G, s, t, capacity='upper_bound', weight='weight')
+
+   flowDict = nx.max_flow_min_cost(R, s, t, capacity='upper_bound', weight='weight')
    print(flowDict)
 
 def main():
