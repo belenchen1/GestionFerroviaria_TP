@@ -11,28 +11,29 @@ def setear_grafo(trenes, cabecera):
    station2 = []
    for s in trenes['services'].values():
       # agrego nodos (nombre = (hora, imbalance))
-      services.append((s['stops'][0]['time'], 0))
-      services.append(((s['stops'][1]['time']), 0))
+
+      services.append((s['stops'][0]['time'], {'demand':-s['demand'][0]}))
+      services.append(((s['stops'][1]['time']),{'demand':s['demand'][0]}))
       
       # aristas verdes
       w = (s['demand'][0]) / (trenes['rs_info']['capacity'])
-      edges.append((((s['stops'][0]['time']), 0), ((s['stops'][1]['time']), 0), {'lower_bound': w, 'upper_bound': trenes['rs_info']['max_rs'], 'weight': 0,'color': 'green'}))
+      edges.append((((s['stops'][0]['time'])), ((s['stops'][1]['time'])), {'lower_bound': w, 'upper_bound': trenes['rs_info']['max_rs'], 'weight': 0,'color': 'green'}))
       
       # lista para aristas entre misma estacion
       if s['stops'][0]['station'] == cabecera[0]:
-         station1.append(((s['stops'][0]['time']), 0))
+         station1.append(((s['stops'][0]['time'])))
       else:
-         station2.append(((s['stops'][0]['time']), 0))
+         station2.append(((s['stops'][0]['time'])))
       if s['stops'][1]['station'] == cabecera[0]:
-         station1.append(((s['stops'][1]['time']), 0))
+         station1.append(((s['stops'][1]['time'])))
       else:
-         station2.append(((s['stops'][1]['time']), 0))
+         station2.append(((s['stops'][1]['time'])))
    
    R.add_nodes_from(services)
    R.add_edges_from(edges)
    
-   station1.sort(key=lambda x: x[0])
-   station2.sort(key=lambda x: x[0])
+   station1.sort()
+   station2.sort()
    
    BIG_NUMBER = 1e16
    # BIG_NUMBER = 25
@@ -73,10 +74,8 @@ def costo_min(G:nx.DiGraph):
       R[e[0]][e[1]]['upper_bound'] = R[e[0]][e[1]]['upper_bound'] - R[e[0]][e[1]]['lower_bound']
       R[e[0]][e[1]]['lower_bound'] = 0
    
-   s = min(R.nodes(), key=lambda x: x[0])
-   t = max(R.nodes(), key=lambda x: x[0])
-
-   flowDict = nx.max_flow_min_cost(R, s, t, capacity='upper_bound', weight='weight')
+   # flowDict = nx.max_flow_min_cost(R, s, t, capacity='upper_bound', weight='weight')
+   flowDict = nx.min_cost_flow(R, demand='demand', capacity='upper_bound', weight='weight')
    print(flowDict)
 
 def main():
