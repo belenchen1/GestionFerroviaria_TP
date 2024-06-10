@@ -2,7 +2,8 @@ import json
 import networkx as nx
 import matplotlib.pyplot as plt
 import copy
-import math 
+import math
+
 def setear_grafo(trenes, cabecera):
    R = nx.DiGraph()
    services = set()
@@ -21,38 +22,30 @@ def setear_grafo(trenes, cabecera):
       edges.append((((s['stops'][0]['time'])), ((s['stops'][1]['time'])), {'lower_bound': w, 'upper_bound': trenes['rs_info']['max_rs'], 'weight': 0, 'color': 'green'}))
       
       # lista para aristas entre misma estacion
-      if s['stops'][0]['station'] == cabecera[0]:
+      if s['stops'][0]['station'] == cabecera[0]:     # [0] <-> type D
          station1.append(((s['stops'][0]['time'])))
       else:
          station2.append(((s['stops'][0]['time'])))
-      if s['stops'][1]['station'] == cabecera[0]:
+      if s['stops'][1]['station'] == cabecera[0]:     # [1] <-> type A
          station1.append(((s['stops'][1]['time'])))
       else:
          station2.append(((s['stops'][1]['time'])))
    
    services = list(services)
    
-   # seteo demandas de nodos en funcion de personas
+   # sumo/resto demandas de servicios que salen/entran a la misma hora
    for s in trenes['services'].values():
-      w = s['demand'][0]
+      w = math.ceil(s['demand'][0] / trenes['rs_info']['capacity'])
       for i in range(len(services)):
          if services[i][0] == s['stops'][0]['time']:
                services[i] = (s['stops'][0]['time'], services[i][1] + w)
          elif services[i][0] == s['stops'][1]['time']:
                services[i] = (s['stops'][1]['time'], services[i][1] - w)
    
-   # convierto demanda a trenes
-   sum = 0
-   count=0
+   # convierto demanda a diccionario
    for i in range(len(services)):
-      w = math.ceil(services[i][1] / trenes['rs_info']['capacity'])
+      w = services[i][1]
       services[i] = (services[i][0], {'demand': w})
-      print(f'service {i} = {services[i]}')
-      if w == 0:
-         count+=1
-      sum += w
-   # print(sum)
-   print(f'0s: {count}')
       
    R.add_nodes_from(services)
    R.add_edges_from(edges)
