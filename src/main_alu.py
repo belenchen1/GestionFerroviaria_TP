@@ -2,22 +2,23 @@ import json
 import networkx as nx
 import matplotlib.pyplot as plt
 import copy
-
+import math 
 def setear_grafo(trenes, cabecera):
    R = nx.DiGraph()
-   services = []
+   services = set()
    edges = []
    station1 = []
    station2 = []
+   
    for s in trenes['services'].values():
-      # agrego nodos (nombre = (hora, imbalance))
-
-      services.append((s['stops'][0]['time'], {'demand':-s['demand'][0]}))
-      services.append(((s['stops'][1]['time']),{'demand':s['demand'][0]}))
+      
+      # agrego nodos base
+      services.add((s['stops'][0]['time'], 0))
+      services.add((s['stops'][1]['time'], 0))
       
       # aristas verdes
-      w = (s['demand'][0]) / (trenes['rs_info']['capacity'])
-      edges.append((((s['stops'][0]['time'])), ((s['stops'][1]['time'])), {'lower_bound': w, 'upper_bound': trenes['rs_info']['max_rs'], 'weight': 0,'color': 'green'}))
+      w = math.ceil(s['demand'][0] / trenes['rs_info']['capacity'])
+      edges.append((((s['stops'][0]['time'])), ((s['stops'][1]['time'])), {'lower_bound': w, 'upper_bound': trenes['rs_info']['max_rs'], 'weight': 0, 'color': 'green'}))
       
       # lista para aristas entre misma estacion
       if s['stops'][0]['station'] == cabecera[0]:
@@ -29,6 +30,30 @@ def setear_grafo(trenes, cabecera):
       else:
          station2.append(((s['stops'][1]['time'])))
    
+   services = list(services)
+   
+   # seteo demandas de nodos en funcion de personas
+   for s in trenes['services'].values():
+      w = s['demand'][0]
+      for i in range(len(services)):
+         if services[i][0] == s['stops'][0]['time']:
+               services[i] = (s['stops'][0]['time'], services[i][1] + w)
+         elif services[i][0] == s['stops'][1]['time']:
+               services[i] = (s['stops'][1]['time'], services[i][1] - w)
+   
+   # convierto demanda a trenes
+   sum = 0
+   count=0
+   for i in range(len(services)):
+      w = math.ceil(services[i][1] / trenes['rs_info']['capacity'])
+      services[i] = (services[i][0], {'demand': w})
+      print(f'service {i} = {services[i]}')
+      if w == 0:
+         count+=1
+      sum += w
+   # print(sum)
+   print(f'0s: {count}')
+      
    R.add_nodes_from(services)
    R.add_edges_from(edges)
    
@@ -36,7 +61,7 @@ def setear_grafo(trenes, cabecera):
    station2.sort()
    
    BIG_NUMBER = 1e16
-   # BIG_NUMBER = 25
+   
    # aristas rojas
    R.add_edge(station1[-1], station1[0], lower_bound=0, upper_bound=BIG_NUMBER, weight=1, color='red')
    R.add_edge(station2[-1], station2[0], lower_bound=0, upper_bound=BIG_NUMBER, weight=1, color='red')
@@ -68,7 +93,6 @@ def costo_min(G:nx.DiGraph):
    #          salida += R[elem[0]][elem[1]]['lower_bound']
    #       i = (i[0], salida - entrada)
 
-
    # redefino aristas
    for e in R.edges():
       R[e[0]][e[1]]['upper_bound'] = R[e[0]][e[1]]['upper_bound'] - R[e[0]][e[1]]['lower_bound']
@@ -77,10 +101,12 @@ def costo_min(G:nx.DiGraph):
    # flowDict = nx.max_flow_min_cost(R, s, t, capacity='upper_bound', weight='weight')
    flowDict = nx.min_cost_flow(R, demand='demand', capacity='upper_bound', weight='weight')
    print(flowDict)
+   print(nx.cost_of_flow(R, flowDict))
+   
 
 def main():
-   filename = "instances/toy_instance.json"
-   # filename = "instances/retiro-tigre-semana.json"
+   # filename = "instances/toy_instance.json"
+   filename = "instances/retiro-tigre-semana.json"
 
    with open(filename) as json_file:
       data = json.load(json_file)
@@ -88,8 +114,8 @@ def main():
    # test file reading
    R = setear_grafo(data, ("Retiro", "Tigre"))
    costo_min(R)
-   for service in data["services"]:
-      print(service, data["services"][service]["stops"])
+   '''for service in data["services"]:
+      print(service, data["services"][service]["stops"])'''
 
 if __name__ == "__main__":
    main()
