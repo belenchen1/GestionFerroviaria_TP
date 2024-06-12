@@ -61,29 +61,24 @@ def setear_grafo(trenes):
       R.add_edge(station2[i-1][0], station2[i][0], lower_bound=0, upper_bound=BIG_NUMBER, weight=0, color='blue')
    
    return R
-'''
+
 def costo_min(G:nx.DiGraph):
    R = copy.deepcopy(G)
 
+   #?------------------------------------------------------ PRUEBAS
+   sum_l = 0
+   for e in R.edges():
+      sum_l += R[e[0]][e[1]]['lower_bound'] 
+   print(f'l_ij: {sum_l}')
+   print(f'cant total de aristas: {len(R.edges())}')
+   #?------------------------------------------------------------
+   
    # redefino aristas
    for e in R.edges():
       R[e[0]][e[1]]['upper_bound'] = R[e[0]][e[1]]['upper_bound'] - R[e[0]][e[1]]['lower_bound']
       R[e[0]][e[1]]['lower_bound'] = 0
 
-   flowDict = nx.min_cost_flow(R, demand='demand', capacity='upper_bound', weight='weight')
-   costo = nx.cost_of_flow(R, flowDict)
-   # print(f'\nflujo:\n{flowDict}')
-   print(f'costo: {costo}')
-'''
-def costo_min(G:nx.DiGraph):
-   R = copy.deepcopy(G)
-
-   # redefino aristas
-   for e in R.edges():
-      R[e[0]][e[1]]['upper_bound'] = R[e[0]][e[1]]['upper_bound'] - R[e[0]][e[1]]['lower_bound']
-      R[e[0]][e[1]]['lower_bound'] = 0
-
-   # Agregar un nodo de origen y un nodo de destino ficticios
+   # nodos ficticios de comienzo y fin
    R.add_node('s')
    R.add_node('t')
 
@@ -116,19 +111,21 @@ def main():
 
    # test file reading
    R = setear_grafo(data)
-   print('cantidad nodos del grafo:\n', len(R.nodes(data=True)))
    
+   #?------------------------------------------------------ PRUEBAS
+   print('\ncantidad nodos del grafo:', len(R.nodes(data=True)))
    count_red = 0
+   count_blue = 0
+   count_green = 0
    for e in R.edges():
       if R[e[0]][e[1]]['color'] == 'red':
          count_red += 1
-   print(f"count_red: {count_red}")
-   
-   count_blue=0
-   for e in R.edges():
-      if R[e[0]][e[1]]['color'] == 'blue':
+      elif R[e[0]][e[1]]['color'] == 'blue':
          count_blue += 1
-   print(f"count_blue: {count_blue}")
+      elif R[e[0]][e[1]]['color'] == 'green':
+         count_green += 1
+   print(f"count_red: {count_red}\ncount_blue: {count_blue}\ncount_green: {count_green}")
+   #?-------------------------------------------------------------
    
    costo_min(R)
    
