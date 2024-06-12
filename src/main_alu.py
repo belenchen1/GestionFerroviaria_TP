@@ -22,7 +22,6 @@ def setear_grafo(trenes):
       dst = (s['stops'][1]['time'], s['stops'][1]['station'])
       R.add_edge(src, dst, lower_bound=w, upper_bound=trenes['rs_info']['max_rs'], weight=0, color='green')
 
-
    # ajusto demandas {sumo/resto demandas de servicios que salen/entran en cierto horario}
    for s in trenes['services'].values():
       w = math.ceil(s['demand'][0] / trenes['rs_info']['capacity'])
@@ -61,14 +60,6 @@ def setear_grafo(trenes):
 
 def costo_min(G:nx.DiGraph):
    R = copy.deepcopy(G)
-
-   #?------------------------------------------------------ PRUEBAS
-   sum_l = 0
-   for e in R.edges():
-      sum_l += R[e[0]][e[1]]['lower_bound'] 
-   print(f'l_ij: {sum_l}')
-   print(f'cant total de aristas: {len(R.edges())}')
-   #?------------------------------------------------------------
    
    # redefino aristas
    for e in R.edges():
@@ -78,7 +69,6 @@ def costo_min(G:nx.DiGraph):
    # nodos ficticios de comienzo y fin
    R.add_node('s')
    R.add_node('t')
-
    # s -> nodo con demanda negativa (generó nuevos trenes)
    # t -> nodo con demanda positiva (manda trenes que recibió)
    for n, d in R.nodes(data=True):
@@ -89,14 +79,9 @@ def costo_min(G:nx.DiGraph):
          elif d['demand'] > 0:
             R.add_edge(n, 't', upper_bound=u, weight=0)
 
-   # Calcular el flujo de costo mínimo
    flowDict = nx.min_cost_flow(R, demand='demand', capacity='upper_bound', weight='weight')
-
-   # Calcular el costo del flujo
    costo = nx.cost_of_flow(R, flowDict, weight='weight')
-
-   print(f'costo: {costo}')
-   
+   return costo
    
 def main():
    # filename = "instances/toy_instance.json"
@@ -108,23 +93,8 @@ def main():
 
    # test file reading
    R = setear_grafo(data)
-   
-   #?------------------------------------------------------ PRUEBAS
-   print('\ncantidad nodos del grafo:', len(R.nodes(data=True)))
-   count_red = 0
-   count_blue = 0
-   count_green = 0
-   for e in R.edges():
-      if R[e[0]][e[1]]['color'] == 'red':
-         count_red += 1
-      elif R[e[0]][e[1]]['color'] == 'blue':
-         count_blue += 1
-      elif R[e[0]][e[1]]['color'] == 'green':
-         count_green += 1
-   print(f"count_red: {count_red}\ncount_blue: {count_blue}\ncount_green: {count_green}")
-   #?-------------------------------------------------------------
-   
-   costo_min(R)
+   costo = costo_min(R)
+   print(f'costo: {costo}')
    
 if __name__ == "__main__":
    main()
