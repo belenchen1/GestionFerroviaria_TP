@@ -76,3 +76,16 @@ def costo_min(G:nx.DiGraph):
       if R[e[0]][e[1]]['color'] == 'red':
          costo += flowDict[e[0]][e[1]]
    return costo
+
+def costo_max(trenes):
+   #sería el costo sin reciclar servicios
+   d=0
+   for s in trenes['services'].values():
+      d+=math.ceil(s['demand'][0] / trenes['rs_info']['capacity'])
+   return d
+
+def plata_ahorrada(costo_min,costo_max, cost_vagon):
+   return(costo_max-costo_min)* cost_vagon
+   
+
+
