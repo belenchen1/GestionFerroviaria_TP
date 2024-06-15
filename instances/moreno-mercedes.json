@@ -1,0 +1,322 @@
+{
+   "services": {
+      "1": {
+         "stops": [
+            {
+               "time": "0205",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0340",
+               "station": "MERCEDES",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1260
+         ]
+      },
+      "2": {
+         "stops": [
+            {
+               "time": "0325",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0500",
+               "station": "MERCEDES",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            429
+         ]
+      },
+      "3": {
+         "stops": [
+            {
+               "time": "0540",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0715",
+               "station": "MERCEDES",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            687
+         ]
+      },
+      "4": {
+         "stops": [
+            {
+               "time": "0700",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0835",
+               "station": "MERCEDES",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            761
+         ]
+      },
+      "6": {
+         "stops": [
+            {
+               "time": "1035",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1210",
+               "station": "MERCEDES",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            924
+         ]
+      },
+      "8": {
+         "stops": [
+            {
+               "time": "1335",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1510",
+               "station": "MERCEDES",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1311
+         ]
+      },
+      "11": {
+         "stops": [
+            {
+               "time": "1715",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1850",
+               "station": "MERCEDES",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1023
+         ]
+      },
+      "12": {
+         "stops": [
+            {
+               "time": "1830",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "2005",
+               "station": "MERCEDES",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            83
+         ]
+      },
+      "13": {
+         "stops": [
+            {
+               "time": "2050",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "2225",
+               "station": "MERCEDES",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2254
+         ]
+      },
+      "15": {
+         "stops": [
+            {
+               "time": "0400",
+               "station": "MERCEDES",
+               "type": "D"
+            },
+            {
+               "time": "0520",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            228
+         ]
+      },
+      "16": {
+         "stops": [
+            {
+               "time": "0520",
+               "station": "MERCEDES",
+               "type": "D"
+            },
+            {
+               "time": "0640",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            731
+         ]
+      },
+      "17": {
+         "stops": [
+            {
+               "time": "0735",
+               "station": "MERCEDES",
+               "type": "D"
+            },
+            {
+               "time": "0855",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2399
+         ]
+      },
+      "18": {
+         "stops": [
+            {
+               "time": "0855",
+               "station": "MERCEDES",
+               "type": "D"
+            },
+            {
+               "time": "1015",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            493
+         ]
+      },
+      "21": {
+         "stops": [
+            {
+               "time": "1230",
+               "station": "MERCEDES",
+               "type": "D"
+            },
+            {
+               "time": "1350",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            372
+         ]
+      },
+      "23": {
+         "stops": [
+            {
+               "time": "1530",
+               "station": "MERCEDES",
+               "type": "D"
+            },
+            {
+               "time": "1650",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1974
+         ]
+      },
+      "25": {
+         "stops": [
+            {
+               "time": "1910",
+               "station": "MERCEDES",
+               "type": "D"
+            },
+            {
+               "time": "2030",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            456
+         ]
+      },
+      "26": {
+         "stops": [
+            {
+               "time": "2040",
+               "station": "MERCEDES",
+               "type": "D"
+            },
+            {
+               "time": "2200",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2123
+         ]
+      },
+      "27": {
+         "stops": [
+            {
+               "time": "2245",
+               "station": "MERCEDES",
+               "type": "D"
+            },
+            {
+               "time": "0005",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2297
+         ]
+      }
+   },
+   "stations": [
+      "MORENO",
+      "MERCEDES"
+   ],
+   "cost_per_unit": {
+      "MORENO": 1.0,
+      "MERCEDES": 1.0
+   },
+   "rs_info": {
+      "capacity": 100,
+      "max_rs": 25
+   }
+}

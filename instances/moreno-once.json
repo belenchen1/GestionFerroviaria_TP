@@ -1,0 +1,3807 @@
+{
+   "services": {
+      "4": {
+         "stops": [
+            {
+               "time": "0402",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0507",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            622
+         ]
+      },
+      "5": {
+         "stops": [
+            {
+               "time": "0429",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0534",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1770
+         ]
+      },
+      "6": {
+         "stops": [
+            {
+               "time": "0502",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0607",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2214
+         ]
+      },
+      "7": {
+         "stops": [
+            {
+               "time": "0525",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0631",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            332
+         ]
+      },
+      "8": {
+         "stops": [
+            {
+               "time": "0534",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0639",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2181
+         ]
+      },
+      "9": {
+         "stops": [
+            {
+               "time": "0543",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0648",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1419
+         ]
+      },
+      "10": {
+         "stops": [
+            {
+               "time": "0550",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0655",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            584
+         ]
+      },
+      "11": {
+         "stops": [
+            {
+               "time": "0556",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0701",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            853
+         ]
+      },
+      "12": {
+         "stops": [
+            {
+               "time": "0606",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0711",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1887
+         ]
+      },
+      "13": {
+         "stops": [
+            {
+               "time": "0614",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0721",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2075
+         ]
+      },
+      "14": {
+         "stops": [
+            {
+               "time": "0624",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0729",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            812
+         ]
+      },
+      "15": {
+         "stops": [
+            {
+               "time": "0632",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0737",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1723
+         ]
+      },
+      "16": {
+         "stops": [
+            {
+               "time": "0640",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0745",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1868
+         ]
+      },
+      "17": {
+         "stops": [
+            {
+               "time": "0648",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0755",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2280
+         ]
+      },
+      "18": {
+         "stops": [
+            {
+               "time": "0658",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0803",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1355
+         ]
+      },
+      "19": {
+         "stops": [
+            {
+               "time": "0705",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0810",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2188
+         ]
+      },
+      "20": {
+         "stops": [
+            {
+               "time": "0713",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0818",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1827
+         ]
+      },
+      "21": {
+         "stops": [
+            {
+               "time": "0721",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0828",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            402
+         ]
+      },
+      "22": {
+         "stops": [
+            {
+               "time": "0731",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0836",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1140
+         ]
+      },
+      "23": {
+         "stops": [
+            {
+               "time": "0740",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0845",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1747
+         ]
+      },
+      "24": {
+         "stops": [
+            {
+               "time": "0748",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0853",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2326
+         ]
+      },
+      "25": {
+         "stops": [
+            {
+               "time": "0756",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0903",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            567
+         ]
+      },
+      "26": {
+         "stops": [
+            {
+               "time": "0806",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0911",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            653
+         ]
+      },
+      "27": {
+         "stops": [
+            {
+               "time": "0813",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0918",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1070
+         ]
+      },
+      "28": {
+         "stops": [
+            {
+               "time": "0821",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0926",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            140
+         ]
+      },
+      "29": {
+         "stops": [
+            {
+               "time": "0829",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0936",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            764
+         ]
+      },
+      "30": {
+         "stops": [
+            {
+               "time": "0839",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0944",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            733
+         ]
+      },
+      "31": {
+         "stops": [
+            {
+               "time": "0846",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0951",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            365
+         ]
+      },
+      "32": {
+         "stops": [
+            {
+               "time": "0855",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1000",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1124
+         ]
+      },
+      "33": {
+         "stops": [
+            {
+               "time": "0903",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1010",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            19
+         ]
+      },
+      "34": {
+         "stops": [
+            {
+               "time": "0913",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1018",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2373
+         ]
+      },
+      "35": {
+         "stops": [
+            {
+               "time": "0920",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1025",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1101
+         ]
+      },
+      "36": {
+         "stops": [
+            {
+               "time": "0928",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1033",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            677
+         ]
+      },
+      "37": {
+         "stops": [
+            {
+               "time": "0936",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1043",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            108
+         ]
+      },
+      "38": {
+         "stops": [
+            {
+               "time": "0946",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1051",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            930
+         ]
+      },
+      "40": {
+         "stops": [
+            {
+               "time": "1001",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1106",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2325
+         ]
+      },
+      "41": {
+         "stops": [
+            {
+               "time": "1011",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1116",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            907
+         ]
+      },
+      "42": {
+         "stops": [
+            {
+               "time": "1021",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1126",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1836
+         ]
+      },
+      "43": {
+         "stops": [
+            {
+               "time": "1028",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1133",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            434
+         ]
+      },
+      "44": {
+         "stops": [
+            {
+               "time": "1036",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1141",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2043
+         ]
+      },
+      "45": {
+         "stops": [
+            {
+               "time": "1044",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1149",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2342
+         ]
+      },
+      "46": {
+         "stops": [
+            {
+               "time": "1056",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1201",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1927
+         ]
+      },
+      "48": {
+         "stops": [
+            {
+               "time": "1109",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1214",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            297
+         ]
+      },
+      "49": {
+         "stops": [
+            {
+               "time": "1117",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1222",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            864
+         ]
+      },
+      "50": {
+         "stops": [
+            {
+               "time": "1127",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1232",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2231
+         ]
+      },
+      "51": {
+         "stops": [
+            {
+               "time": "1135",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1240",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1604
+         ]
+      },
+      "52": {
+         "stops": [
+            {
+               "time": "1143",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1248",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2204
+         ]
+      },
+      "53": {
+         "stops": [
+            {
+               "time": "1152",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1257",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            955
+         ]
+      },
+      "54": {
+         "stops": [
+            {
+               "time": "1201",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1306",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1278
+         ]
+      },
+      "55": {
+         "stops": [
+            {
+               "time": "1211",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1316",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1477
+         ]
+      },
+      "56": {
+         "stops": [
+            {
+               "time": "1221",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1326",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1507
+         ]
+      },
+      "57": {
+         "stops": [
+            {
+               "time": "1231",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1336",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1574
+         ]
+      },
+      "58": {
+         "stops": [
+            {
+               "time": "1241",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1346",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1202
+         ]
+      },
+      "59": {
+         "stops": [
+            {
+               "time": "1251",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1356",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1308
+         ]
+      },
+      "60": {
+         "stops": [
+            {
+               "time": "1301",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1406",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            96
+         ]
+      },
+      "61": {
+         "stops": [
+            {
+               "time": "1313",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1418",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            781
+         ]
+      },
+      "62": {
+         "stops": [
+            {
+               "time": "1321",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1426",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            92
+         ]
+      },
+      "63": {
+         "stops": [
+            {
+               "time": "1331",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1436",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2291
+         ]
+      },
+      "64": {
+         "stops": [
+            {
+               "time": "1341",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1446",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1224
+         ]
+      },
+      "65": {
+         "stops": [
+            {
+               "time": "1351",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1456",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1569
+         ]
+      },
+      "66": {
+         "stops": [
+            {
+               "time": "1359",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1504",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1030
+         ]
+      },
+      "67": {
+         "stops": [
+            {
+               "time": "1408",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1513",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1270
+         ]
+      },
+      "68": {
+         "stops": [
+            {
+               "time": "1418",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1523",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2243
+         ]
+      },
+      "69": {
+         "stops": [
+            {
+               "time": "1426",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1531",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2282
+         ]
+      },
+      "70": {
+         "stops": [
+            {
+               "time": "1434",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1539",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2126
+         ]
+      },
+      "71": {
+         "stops": [
+            {
+               "time": "1443",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1548",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1430
+         ]
+      },
+      "72": {
+         "stops": [
+            {
+               "time": "1453",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1558",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            504
+         ]
+      },
+      "74": {
+         "stops": [
+            {
+               "time": "1506",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1604",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            930
+         ]
+      },
+      "76": {
+         "stops": [
+            {
+               "time": "1515",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1620",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2049
+         ]
+      },
+      "77": {
+         "stops": [
+            {
+               "time": "1523",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1628",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1644
+         ]
+      },
+      "78": {
+         "stops": [
+            {
+               "time": "1531",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1636",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            851
+         ]
+      },
+      "79": {
+         "stops": [
+            {
+               "time": "1544",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1642",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2
+         ]
+      },
+      "81": {
+         "stops": [
+            {
+               "time": "1553",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1658",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            104
+         ]
+      },
+      "82": {
+         "stops": [
+            {
+               "time": "1601",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1706",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            353
+         ]
+      },
+      "83": {
+         "stops": [
+            {
+               "time": "1611",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1716",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            570
+         ]
+      },
+      "85": {
+         "stops": [
+            {
+               "time": "1626",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1724",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1924
+         ]
+      },
+      "87": {
+         "stops": [
+            {
+               "time": "1635",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1740",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            981
+         ]
+      },
+      "88": {
+         "stops": [
+            {
+               "time": "1643",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1748",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1884
+         ]
+      },
+      "89": {
+         "stops": [
+            {
+               "time": "1651",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1756",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            721
+         ]
+      },
+      "91": {
+         "stops": [
+            {
+               "time": "1704",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1802",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1846
+         ]
+      },
+      "93": {
+         "stops": [
+            {
+               "time": "1713",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1818",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            355
+         ]
+      },
+      "94": {
+         "stops": [
+            {
+               "time": "1723",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1828",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1174
+         ]
+      },
+      "95": {
+         "stops": [
+            {
+               "time": "1731",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1836",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2376
+         ]
+      },
+      "96": {
+         "stops": [
+            {
+               "time": "1744",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1842",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            108
+         ]
+      },
+      "98": {
+         "stops": [
+            {
+               "time": "1753",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1858",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1962
+         ]
+      },
+      "99": {
+         "stops": [
+            {
+               "time": "1801",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1906",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            290
+         ]
+      },
+      "100": {
+         "stops": [
+            {
+               "time": "1809",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1914",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1817
+         ]
+      },
+      "102": {
+         "stops": [
+            {
+               "time": "1822",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1920",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            777
+         ]
+      },
+      "104": {
+         "stops": [
+            {
+               "time": "1831",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1936",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2014
+         ]
+      },
+      "105": {
+         "stops": [
+            {
+               "time": "1843",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1948",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            239
+         ]
+      },
+      "106": {
+         "stops": [
+            {
+               "time": "1851",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "1956",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2184
+         ]
+      },
+      "108": {
+         "stops": [
+            {
+               "time": "1904",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "2002",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            597
+         ]
+      },
+      "110": {
+         "stops": [
+            {
+               "time": "1913",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "2018",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1210
+         ]
+      },
+      "111": {
+         "stops": [
+            {
+               "time": "1921",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "2026",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            360
+         ]
+      },
+      "112": {
+         "stops": [
+            {
+               "time": "1931",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "2036",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            809
+         ]
+      },
+      "113": {
+         "stops": [
+            {
+               "time": "1944",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "2042",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1358
+         ]
+      },
+      "114": {
+         "stops": [
+            {
+               "time": "1953",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "2058",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1181
+         ]
+      },
+      "115": {
+         "stops": [
+            {
+               "time": "2001",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "2106",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1535
+         ]
+      },
+      "116": {
+         "stops": [
+            {
+               "time": "2011",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "2116",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            421
+         ]
+      },
+      "117": {
+         "stops": [
+            {
+               "time": "2024",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "2122",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            921
+         ]
+      },
+      "118": {
+         "stops": [
+            {
+               "time": "2033",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "2138",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            480
+         ]
+      },
+      "119": {
+         "stops": [
+            {
+               "time": "2043",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "2148",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1601
+         ]
+      },
+      "120": {
+         "stops": [
+            {
+               "time": "2053",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "2158",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            728
+         ]
+      },
+      "121": {
+         "stops": [
+            {
+               "time": "2103",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "2208",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1937
+         ]
+      },
+      "122": {
+         "stops": [
+            {
+               "time": "2113",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "2218",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1799
+         ]
+      },
+      "123": {
+         "stops": [
+            {
+               "time": "2123",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "2228",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2351
+         ]
+      },
+      "124": {
+         "stops": [
+            {
+               "time": "2133",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "2238",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2333
+         ]
+      },
+      "125": {
+         "stops": [
+            {
+               "time": "2153",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "2258",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1412
+         ]
+      },
+      "126": {
+         "stops": [
+            {
+               "time": "2216",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "2321",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2352
+         ]
+      },
+      "127": {
+         "stops": [
+            {
+               "time": "2231",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "2336",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2085
+         ]
+      },
+      "128": {
+         "stops": [
+            {
+               "time": "2250",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "2355",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1649
+         ]
+      },
+      "129": {
+         "stops": [
+            {
+               "time": "2330",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0035",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            429
+         ]
+      },
+      "130": {
+         "stops": [
+            {
+               "time": "2350",
+               "station": "ONCE",
+               "type": "D"
+            },
+            {
+               "time": "0055",
+               "station": "MORENO",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1120
+         ]
+      },
+      "132": {
+         "stops": [
+            {
+               "time": "0310",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0415",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1139
+         ]
+      },
+      "133": {
+         "stops": [
+            {
+               "time": "0345",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0450",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            221
+         ]
+      },
+      "134": {
+         "stops": [
+            {
+               "time": "0410",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0515",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2325
+         ]
+      },
+      "135": {
+         "stops": [
+            {
+               "time": "0419",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0524",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1139
+         ]
+      },
+      "136": {
+         "stops": [
+            {
+               "time": "0428",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0533",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            56
+         ]
+      },
+      "137": {
+         "stops": [
+            {
+               "time": "0440",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0545",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            647
+         ]
+      },
+      "138": {
+         "stops": [
+            {
+               "time": "0450",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0555",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1628
+         ]
+      },
+      "139": {
+         "stops": [
+            {
+               "time": "0459",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0604",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            544
+         ]
+      },
+      "140": {
+         "stops": [
+            {
+               "time": "0510",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0609",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            212
+         ]
+      },
+      "141": {
+         "stops": [
+            {
+               "time": "0517",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0622",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1255
+         ]
+      },
+      "142": {
+         "stops": [
+            {
+               "time": "0525",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0630",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1181
+         ]
+      },
+      "143": {
+         "stops": [
+            {
+               "time": "0533",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0638",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            764
+         ]
+      },
+      "144": {
+         "stops": [
+            {
+               "time": "0544",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0643",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            925
+         ]
+      },
+      "145": {
+         "stops": [
+            {
+               "time": "0550",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0655",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            56
+         ]
+      },
+      "146": {
+         "stops": [
+            {
+               "time": "0558",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0703",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            278
+         ]
+      },
+      "147": {
+         "stops": [
+            {
+               "time": "0606",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0711",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1762
+         ]
+      },
+      "149": {
+         "stops": [
+            {
+               "time": "0617",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0716",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1907
+         ]
+      },
+      "150": {
+         "stops": [
+            {
+               "time": "0623",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0728",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1516
+         ]
+      },
+      "151": {
+         "stops": [
+            {
+               "time": "0633",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0738",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            751
+         ]
+      },
+      "152": {
+         "stops": [
+            {
+               "time": "0641",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0746",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            434
+         ]
+      },
+      "154": {
+         "stops": [
+            {
+               "time": "0652",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0751",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            8
+         ]
+      },
+      "155": {
+         "stops": [
+            {
+               "time": "0658",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0803",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            793
+         ]
+      },
+      "156": {
+         "stops": [
+            {
+               "time": "0706",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0811",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            470
+         ]
+      },
+      "157": {
+         "stops": [
+            {
+               "time": "0714",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0819",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1550
+         ]
+      },
+      "158": {
+         "stops": [
+            {
+               "time": "0726",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0825",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2264
+         ]
+      },
+      "159": {
+         "stops": [
+            {
+               "time": "0731",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0836",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1755
+         ]
+      },
+      "160": {
+         "stops": [
+            {
+               "time": "0740",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0845",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2067
+         ]
+      },
+      "161": {
+         "stops": [
+            {
+               "time": "0748",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0853",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            735
+         ]
+      },
+      "163": {
+         "stops": [
+            {
+               "time": "0759",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0858",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            199
+         ]
+      },
+      "164": {
+         "stops": [
+            {
+               "time": "0805",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0910",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1398
+         ]
+      },
+      "165": {
+         "stops": [
+            {
+               "time": "0813",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0918",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1892
+         ]
+      },
+      "166": {
+         "stops": [
+            {
+               "time": "0821",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0926",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1511
+         ]
+      },
+      "168": {
+         "stops": [
+            {
+               "time": "0832",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0931",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2183
+         ]
+      },
+      "169": {
+         "stops": [
+            {
+               "time": "0838",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0943",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            818
+         ]
+      },
+      "170": {
+         "stops": [
+            {
+               "time": "0846",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "0951",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            365
+         ]
+      },
+      "171": {
+         "stops": [
+            {
+               "time": "0856",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1001",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1535
+         ]
+      },
+      "172": {
+         "stops": [
+            {
+               "time": "0907",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1006",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            551
+         ]
+      },
+      "173": {
+         "stops": [
+            {
+               "time": "0913",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1018",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2368
+         ]
+      },
+      "174": {
+         "stops": [
+            {
+               "time": "0921",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1026",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1669
+         ]
+      },
+      "175": {
+         "stops": [
+            {
+               "time": "0929",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1034",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1654
+         ]
+      },
+      "177": {
+         "stops": [
+            {
+               "time": "0940",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1039",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            685
+         ]
+      },
+      "178": {
+         "stops": [
+            {
+               "time": "0946",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1051",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            622
+         ]
+      },
+      "179": {
+         "stops": [
+            {
+               "time": "0954",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1059",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1622
+         ]
+      },
+      "180": {
+         "stops": [
+            {
+               "time": "1002",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1107",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            672
+         ]
+      },
+      "181": {
+         "stops": [
+            {
+               "time": "1013",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1112",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            818
+         ]
+      },
+      "182": {
+         "stops": [
+            {
+               "time": "1020",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1125",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            284
+         ]
+      },
+      "183": {
+         "stops": [
+            {
+               "time": "1028",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1133",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            953
+         ]
+      },
+      "184": {
+         "stops": [
+            {
+               "time": "1037",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1142",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            578
+         ]
+      },
+      "185": {
+         "stops": [
+            {
+               "time": "1046",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1151",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2160
+         ]
+      },
+      "186": {
+         "stops": [
+            {
+               "time": "1056",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1201",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1404
+         ]
+      },
+      "187": {
+         "stops": [
+            {
+               "time": "1106",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1211",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            258
+         ]
+      },
+      "188": {
+         "stops": [
+            {
+               "time": "1116",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1221",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2070
+         ]
+      },
+      "189": {
+         "stops": [
+            {
+               "time": "1126",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1231",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            222
+         ]
+      },
+      "190": {
+         "stops": [
+            {
+               "time": "1136",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1241",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            548
+         ]
+      },
+      "191": {
+         "stops": [
+            {
+               "time": "1146",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1251",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1696
+         ]
+      },
+      "192": {
+         "stops": [
+            {
+               "time": "1158",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1303",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2318
+         ]
+      },
+      "193": {
+         "stops": [
+            {
+               "time": "1206",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1311",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            469
+         ]
+      },
+      "194": {
+         "stops": [
+            {
+               "time": "1214",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1319",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            742
+         ]
+      },
+      "195": {
+         "stops": [
+            {
+               "time": "1224",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1329",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            136
+         ]
+      },
+      "196": {
+         "stops": [
+            {
+               "time": "1233",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1338",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1157
+         ]
+      },
+      "197": {
+         "stops": [
+            {
+               "time": "1242",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1347",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1395
+         ]
+      },
+      "198": {
+         "stops": [
+            {
+               "time": "1250",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1355",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1375
+         ]
+      },
+      "199": {
+         "stops": [
+            {
+               "time": "1259",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1404",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1210
+         ]
+      },
+      "200": {
+         "stops": [
+            {
+               "time": "1309",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1414",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1971
+         ]
+      },
+      "201": {
+         "stops": [
+            {
+               "time": "1318",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1423",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            832
+         ]
+      },
+      "202": {
+         "stops": [
+            {
+               "time": "1327",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1432",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            474
+         ]
+      },
+      "203": {
+         "stops": [
+            {
+               "time": "1336",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1441",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            655
+         ]
+      },
+      "205": {
+         "stops": [
+            {
+               "time": "1346",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1451",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            991
+         ]
+      },
+      "206": {
+         "stops": [
+            {
+               "time": "1356",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1501",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1002
+         ]
+      },
+      "207": {
+         "stops": [
+            {
+               "time": "1406",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1511",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1134
+         ]
+      },
+      "208": {
+         "stops": [
+            {
+               "time": "1416",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1521",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2231
+         ]
+      },
+      "209": {
+         "stops": [
+            {
+               "time": "1426",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1531",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            59
+         ]
+      },
+      "210": {
+         "stops": [
+            {
+               "time": "1436",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1541",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            789
+         ]
+      },
+      "211": {
+         "stops": [
+            {
+               "time": "1446",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1551",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1991
+         ]
+      },
+      "212": {
+         "stops": [
+            {
+               "time": "1456",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1601",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1693
+         ]
+      },
+      "214": {
+         "stops": [
+            {
+               "time": "1506",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1611",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1000
+         ]
+      },
+      "215": {
+         "stops": [
+            {
+               "time": "1514",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1619",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            275
+         ]
+      },
+      "216": {
+         "stops": [
+            {
+               "time": "1523",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1628",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1501
+         ]
+      },
+      "217": {
+         "stops": [
+            {
+               "time": "1533",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1638",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            597
+         ]
+      },
+      "218": {
+         "stops": [
+            {
+               "time": "1541",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1646",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1866
+         ]
+      },
+      "219": {
+         "stops": [
+            {
+               "time": "1549",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1654",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1986
+         ]
+      },
+      "220": {
+         "stops": [
+            {
+               "time": "1558",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1703",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1840
+         ]
+      },
+      "221": {
+         "stops": [
+            {
+               "time": "1610",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1718",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            150
+         ]
+      },
+      "222": {
+         "stops": [
+            {
+               "time": "1625",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1730",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            280
+         ]
+      },
+      "223": {
+         "stops": [
+            {
+               "time": "1638",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1743",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1184
+         ]
+      },
+      "224": {
+         "stops": [
+            {
+               "time": "1648",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1756",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            704
+         ]
+      },
+      "226": {
+         "stops": [
+            {
+               "time": "1703",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1808",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2385
+         ]
+      },
+      "227": {
+         "stops": [
+            {
+               "time": "1716",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1821",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            581
+         ]
+      },
+      "228": {
+         "stops": [
+            {
+               "time": "1726",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1831",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1395
+         ]
+      },
+      "229": {
+         "stops": [
+            {
+               "time": "1734",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1839",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            471
+         ]
+      },
+      "231": {
+         "stops": [
+            {
+               "time": "1745",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1850",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            178
+         ]
+      },
+      "232": {
+         "stops": [
+            {
+               "time": "1758",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1903",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1618
+         ]
+      },
+      "233": {
+         "stops": [
+            {
+               "time": "1808",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1916",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1137
+         ]
+      },
+      "234": {
+         "stops": [
+            {
+               "time": "1823",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1928",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            859
+         ]
+      },
+      "235": {
+         "stops": [
+            {
+               "time": "1838",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1943",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1446
+         ]
+      },
+      "236": {
+         "stops": [
+            {
+               "time": "1848",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "1956",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1842
+         ]
+      },
+      "237": {
+         "stops": [
+            {
+               "time": "1903",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "2008",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            841
+         ]
+      },
+      "238": {
+         "stops": [
+            {
+               "time": "1916",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "2021",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1907
+         ]
+      },
+      "239": {
+         "stops": [
+            {
+               "time": "1926",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "2034",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            836
+         ]
+      },
+      "240": {
+         "stops": [
+            {
+               "time": "1941",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "2046",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1860
+         ]
+      },
+      "241": {
+         "stops": [
+            {
+               "time": "1958",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "2103",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1581
+         ]
+      },
+      "242": {
+         "stops": [
+            {
+               "time": "2006",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "2111",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            610
+         ]
+      },
+      "243": {
+         "stops": [
+            {
+               "time": "2015",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "2120",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1625
+         ]
+      },
+      "244": {
+         "stops": [
+            {
+               "time": "2038",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "2143",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            305
+         ]
+      },
+      "245": {
+         "stops": [
+            {
+               "time": "2101",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "2206",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1397
+         ]
+      },
+      "246": {
+         "stops": [
+            {
+               "time": "2110",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "2215",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1224
+         ]
+      },
+      "247": {
+         "stops": [
+            {
+               "time": "2119",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "2224",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            809
+         ]
+      },
+      "248": {
+         "stops": [
+            {
+               "time": "2132",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "2237",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1231
+         ]
+      },
+      "249": {
+         "stops": [
+            {
+               "time": "2210",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "2315",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            436
+         ]
+      },
+      "250": {
+         "stops": [
+            {
+               "time": "2230",
+               "station": "MORENO",
+               "type": "D"
+            },
+            {
+               "time": "2335",
+               "station": "ONCE",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            107
+         ]
+      }
+   },
+   "stations": [
+      "ONCE",
+      "MORENO"
+   ],
+   "cost_per_unit": {
+      "ONCE": 1.0,
+      "MORENO": 1.0
+   },
+   "rs_info": {
+      "capacity": 100,
+      "max_rs": 25
+   }
+}
