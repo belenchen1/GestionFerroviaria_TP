@@ -91,7 +91,7 @@ def costo_max(trenes):
    return d
 
 def plata_ahorrada(costo_min,costo_max, cost_vagon):
-   return(costo_max-costo_min)* cost_vagon
+   return(costo_max-costo_min) * cost_vagon
    
 
 

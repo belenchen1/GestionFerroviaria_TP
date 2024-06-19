@@ -1,0 +1,118 @@
+{
+   "services": {
+      "1": {
+         "stops": [
+            {
+               "time": "06.50",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "0715",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1937
+         ]
+      },
+      "2": {
+         "stops": [
+            {
+               "time": "0720",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "0745",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            349
+         ]
+      },
+      "3": {
+         "stops": [
+            {
+               "time": "0740",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "0805",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2327
+         ]
+      },
+      "4": {
+         "stops": [
+            {
+               "time": "0650",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "0715",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1939
+         ]
+      },
+      "5": {
+         "stops": [
+            {
+               "time": "0710",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "0735",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1334
+         ]
+      },
+      "6": {
+         "stops": [
+            {
+               "time": "0730",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "0755",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            1589
+         ]
+      }
+   },
+   "stations": [
+      "MAIPU",
+      "DELTA"
+   ],
+   "cost_per_unit": {
+      "MAIPU": 1.0,
+      "DELTA": 1.0
+   },
+   "rs_info": {
+      "capacity": 100,
+      "max_rs": 25
+   }
+}

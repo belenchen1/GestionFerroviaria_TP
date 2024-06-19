@@ -1,0 +1,1376 @@
+{
+   "services": {
+      "1": {
+         "stops": [
+            {
+               "time": "06.50",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "0715",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "2": {
+         "stops": [
+            {
+               "time": "0720",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "0745",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "3": {
+         "stops": [
+            {
+               "time": "0740",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "0805",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "4": {
+         "stops": [
+            {
+               "time": "0800",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "0825",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "5": {
+         "stops": [
+            {
+               "time": "0820",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "0845",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "6": {
+         "stops": [
+            {
+               "time": "0840",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "0905",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "7": {
+         "stops": [
+            {
+               "time": "0900",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "0925",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "8": {
+         "stops": [
+            {
+               "time": "0920",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "0945",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "9": {
+         "stops": [
+            {
+               "time": "0940",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "1005",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "10": {
+         "stops": [
+            {
+               "time": "1000",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "1025",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "11": {
+         "stops": [
+            {
+               "time": "1020",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "1045",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "12": {
+         "stops": [
+            {
+               "time": "1040",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "1105",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "13": {
+         "stops": [
+            {
+               "time": "1100",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "1125",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "14": {
+         "stops": [
+            {
+               "time": "1120",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "1145",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "15": {
+         "stops": [
+            {
+               "time": "1140",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "1205",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "16": {
+         "stops": [
+            {
+               "time": "1200",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "1225",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "17": {
+         "stops": [
+            {
+               "time": "1220",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "1245",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "18": {
+         "stops": [
+            {
+               "time": "1250",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "1315",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "19": {
+         "stops": [
+            {
+               "time": "1320",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "1345",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "20": {
+         "stops": [
+            {
+               "time": "1350",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "1415",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "21": {
+         "stops": [
+            {
+               "time": "1420",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "1445",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "22": {
+         "stops": [
+            {
+               "time": "1450",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "1515",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "23": {
+         "stops": [
+            {
+               "time": "1520",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "1545",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "24": {
+         "stops": [
+            {
+               "time": "1550",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "1615",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "25": {
+         "stops": [
+            {
+               "time": "1610",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "1635",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "26": {
+         "stops": [
+            {
+               "time": "1630",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "1655",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "27": {
+         "stops": [
+            {
+               "time": "1650",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "1715",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "28": {
+         "stops": [
+            {
+               "time": "1710",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "1735",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "29": {
+         "stops": [
+            {
+               "time": "1730",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "1755",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "30": {
+         "stops": [
+            {
+               "time": "1750",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "1815",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "31": {
+         "stops": [
+            {
+               "time": "1810",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "1835",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "32": {
+         "stops": [
+            {
+               "time": "1830",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "1855",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "33": {
+         "stops": [
+            {
+               "time": "1850",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "1915",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "34": {
+         "stops": [
+            {
+               "time": "1910",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "1935",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "35": {
+         "stops": [
+            {
+               "time": "1930",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "1955",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "36": {
+         "stops": [
+            {
+               "time": "1950",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "2015",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "37": {
+         "stops": [
+            {
+               "time": "2010",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "2035",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "38": {
+         "stops": [
+            {
+               "time": "2030",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "2055",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "39": {
+         "stops": [
+            {
+               "time": "2050",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "2115",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "40": {
+         "stops": [
+            {
+               "time": "2120",
+               "station": "MAIPU",
+               "type": "D"
+            },
+            {
+               "time": "2145",
+               "station": "DELTA",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "41": {
+         "stops": [
+            {
+               "time": "0620",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "0645",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "42": {
+         "stops": [
+            {
+               "time": "0650",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "0715",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "43": {
+         "stops": [
+            {
+               "time": "0710",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "0735",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "44": {
+         "stops": [
+            {
+               "time": "0730",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "0755",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "45": {
+         "stops": [
+            {
+               "time": "0750",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "0815",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "46": {
+         "stops": [
+            {
+               "time": "0810",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "0835",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "47": {
+         "stops": [
+            {
+               "time": "0830",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "0855",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "48": {
+         "stops": [
+            {
+               "time": "0850",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "0915",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "49": {
+         "stops": [
+            {
+               "time": "0910",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "0935",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "50": {
+         "stops": [
+            {
+               "time": "0930",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "0955",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "51": {
+         "stops": [
+            {
+               "time": "0950",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "1015",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "52": {
+         "stops": [
+            {
+               "time": "1010",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "1035",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "53": {
+         "stops": [
+            {
+               "time": "1030",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "1055",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "54": {
+         "stops": [
+            {
+               "time": "1050",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "1115",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "55": {
+         "stops": [
+            {
+               "time": "1110",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "1135",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "56": {
+         "stops": [
+            {
+               "time": "1130",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "1155",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "57": {
+         "stops": [
+            {
+               "time": "1150",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "1215",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "58": {
+         "stops": [
+            {
+               "time": "1220",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "1245",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "59": {
+         "stops": [
+            {
+               "time": "1250",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "1315",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "60": {
+         "stops": [
+            {
+               "time": "1320",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "1345",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "61": {
+         "stops": [
+            {
+               "time": "1350",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "1415",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "62": {
+         "stops": [
+            {
+               "time": "1420",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "1445",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "63": {
+         "stops": [
+            {
+               "time": "1450",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "1515",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "64": {
+         "stops": [
+            {
+               "time": "1520",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "1545",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "65": {
+         "stops": [
+            {
+               "time": "1540",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "1605",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "66": {
+         "stops": [
+            {
+               "time": "1600",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "1625",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "67": {
+         "stops": [
+            {
+               "time": "1620",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "1645",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "68": {
+         "stops": [
+            {
+               "time": "1640",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "1705",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "69": {
+         "stops": [
+            {
+               "time": "1700",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "1725",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "70": {
+         "stops": [
+            {
+               "time": "1720",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "1745",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "71": {
+         "stops": [
+            {
+               "time": "1740",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "1805",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "72": {
+         "stops": [
+            {
+               "time": "1800",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "1825",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "73": {
+         "stops": [
+            {
+               "time": "1820",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "1845",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "74": {
+         "stops": [
+            {
+               "time": "1840",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "1905",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "75": {
+         "stops": [
+            {
+               "time": "1900",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "1925",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "76": {
+         "stops": [
+            {
+               "time": "1920",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "1945",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "77": {
+         "stops": [
+            {
+               "time": "1940",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "2005",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "78": {
+         "stops": [
+            {
+               "time": "2000",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "2025",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "79": {
+         "stops": [
+            {
+               "time": "2020",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "2045",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      },
+      "80": {
+         "stops": [
+            {
+               "time": "2050",
+               "station": "DELTA",
+               "type": "D"
+            },
+            {
+               "time": "2115",
+               "station": "MAIPU",
+               "type": "A"
+            }
+         ],
+         "demand": [
+            2400
+         ]
+      }
+   },
+   "stations": [
+      "MAIPU",
+      "DELTA"
+   ],
+   "cost_per_unit": {
+      "MAIPU": 1.0,
+      "DELTA": 1.0
+   },
+   "rs_info": {
+      "capacity": 100,
+      "max_rs": 25
+   }
+}

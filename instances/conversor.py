@@ -7,6 +7,7 @@ import random
 filename = './instances/csv/moreno-once.csv'
 # filename = './instances/csv/moreno-mercedes.csv'
 # filename = './instances/csv/maipu-delta.csv'
+# filename = './instances/csv/toy.csv'
 
 with open(filename, mode='r', newline='') as archivo_entrada:
    lector_csv = csv.reader(archivo_entrada)
