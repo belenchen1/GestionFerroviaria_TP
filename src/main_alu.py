@@ -32,7 +32,7 @@ def main():
    # #Tomamos data de un artículo de infobae 2018 donde se decía que cada vagón para el Roca costaban 1.580.000 dólares
    # ahorro= plata_ahorrada(costo_minimo,costo_maximo, cost_vagon=1500000)
    # print(f'plata_ahorrada: {ahorro}')
-   # R = setear_grafo_roto(data, 15, 'DELTA')
+   R = setear_grafo_roto(data, 20, 'Tigre')
    costo_minimo = costo_min(R)
    print(f'costo_minimo: {costo_minimo}')
    
