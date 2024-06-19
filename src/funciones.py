@@ -1,32 +1,31 @@
 import networkx as nx
-import matplotlib.pyplot as plt
 import copy
 from math import *
 import math
 
 def setear_grafo(trenes):
    
-   cabeceras = tuple(trenes['stations'])
+   cabeceras = (trenes['stations'][0].upper(), trenes['stations'][1].upper())
    R = nx.DiGraph()
 
    for s in trenes['services'].values():
       # agrego nodos, en principio con demanda 0
       for i in range(2): # 0 <-> type D (departure)  ^  1 <-> type A (arrival)
-         nodo_id = (s['stops'][i]['time'], s['stops'][i]['station'])
+         nodo_id = (s['stops'][i]['time'], s['stops'][i]['station'].upper())
          if nodo_id not in R.nodes():
             R.add_node(nodo_id, demand=0)
                
       # aristas verdes -> de tren
       l = math.ceil(s['demand'][0] / trenes['rs_info']['capacity'])
-      src = (s['stops'][0]['time'], s['stops'][0]['station'])
-      dst = (s['stops'][1]['time'], s['stops'][1]['station'])
+      src = (s['stops'][0]['time'], s['stops'][0]['station'].upper())
+      dst = (s['stops'][1]['time'], s['stops'][1]['station'].upper())
       R.add_edge(src, dst, lower_bound=l, upper_bound=trenes['rs_info']['max_rs'], weight=0, color='green')
 
    # ajusto demandas {sumo/resto demandas de servicios que salen/entran en cierto horario}
    for s in trenes['services'].values():
       d = math.ceil(s['demand'][0] / trenes['rs_info']['capacity'])
-      id_dep = (s['stops'][0]['time'], s['stops'][0]['station'])
-      id_arr = (s['stops'][1]['time'], s['stops'][1]['station'])
+      id_dep = (s['stops'][0]['time'], s['stops'][0]['station'].upper())
+      id_arr = (s['stops'][1]['time'], s['stops'][1]['station'].upper())
       for n in R.nodes(data="True"):
          if n[0] == id_dep:
             R.nodes[n[0]]['demand'] += d
@@ -74,17 +73,15 @@ def costo_min(G:nx.DiGraph):
    costo=0
    for e in R.edges():
       if e[0] == 'z'or e[1] == 'z':
-         print(f'flujo arista de {e[0]} a {e[1]}: {flowDict[e[0]][e[1]]}')
          if e[0] == 'z':
             costo += flowDict[e[0]][e[1]]
       if R[e[0]][e[1]]['color'] == 'red':
-         print(f'flujo arista de {e[0]} a {e[1]}: {flowDict[e[0]][e[1]]}')
          costo += flowDict[e[0]][e[1]]
    return costo
 
 
 def costo_max(trenes):
-   #sería el costo sin reciclar servicios
+   # costo sin reciclar servicios
    d=0
    for s in trenes['services'].values():
       d+=math.ceil(s['demand'][0] / trenes['rs_info']['capacity'])
@@ -92,6 +89,3 @@ def costo_max(trenes):
 
 def plata_ahorrada(costo_min,costo_max, cost_vagon):
    return(costo_max-costo_min) * cost_vagon
-   
-
-
